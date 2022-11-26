@@ -94,8 +94,26 @@ public class Lambda01 {
 
     }
 
-    //TASK  : structural Programming ile list elemanlarinin  cift olanlarini ayni satirda aralarina bosluk birakarak print ediniz.
+    // Yukaridaki Task'in filter() kismini method referance ile yapalim
 
+    public static boolean ciftBul(int a){
+       return a%2==0;
+    }
+
+    public static void printCiftElFunctional1(List<Integer> sayi){
+
+        sayi.
+                stream().
+                filter(Lambda01::ciftBul).        // Method referance
+                forEach(Lambda01::yazdir);
+        // pespese if ve for each yapmis olduk
+        // filter() methodunu if gibi kullaniyoruz
+        // herbir method ciktisini diger methoda aktariyor
+
+    }
+
+
+    //TASK  : structural Programming ile list elemanlarinin  cift olanlarini ayni satirda aralarina bosluk birakarak print ediniz.
     public static void printCiftElStructural(List<Integer> sayi){
         for (Integer w:sayi){
             if (w%2==0){
