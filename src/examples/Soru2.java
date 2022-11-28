@@ -1,3 +1,5 @@
+package examples;
+
 public class Soru2 {
 
     /*Create 4 objects by using Can class(

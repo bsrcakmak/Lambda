@@ -1,3 +1,5 @@
+package examples;
+
 public class Soru1 {
 
     /*
