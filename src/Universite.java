@@ -1,5 +1,14 @@
 public class Universite {
 
+    /*
+       Pojo(Plain Old Java Object) Class nedir?
+     1)Variable ları private olan (Encapsulation yapılmış olan);
+     2)Bir parametresiz birde parametreli Constructor olan;
+     3)Getter ve Setter methodlar olan;
+     4)toString() methodu olan;
+     Class'lara kısaltma isim olarak Pojo(Plain Old Java Object) Class denir
+     */
+
     private String univercity;
     private String bolum;
     private int ogrSayisi;
